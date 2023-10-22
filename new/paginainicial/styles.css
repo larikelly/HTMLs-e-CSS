@@ -1,0 +1,128 @@
+body {
+    font-family: Poppins, sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 100vh;
+    margin: 0;
+    background-color: #F1FFF1;
+}
+
+.container {
+    text-align: center;
+    font-weight: bold;
+}
+.login-button,
+.register-button {
+    background-color: #F1FFF1;
+    color: #3FB4BA;
+    white-space: nowrap;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    line-height: 50px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: .025em;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 800;
+    min-height: 50px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.login-button, .register-button {
+    background-color: #898989;
+    color: #FFFFFF;
+}
+
+.login-button:hover,
+.register-button:hover {
+    background-color: #3FB4BA; 
+    color: #F1FFF1; 
+}
+
+.button-container {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .button-container button {
+    margin-right: 10px;
+  }
+  
+.background {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+    margin: 4px;
+    gap: 8px;
+    max-height: 600px; 
+    max-width: 400px;
+    transition: all 0.2s;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    padding: 4px;
+    min-width: 480px;
+    min-height: 400px;
+    color: white;
+    display: flex;
+    border-radius: 8px;
+    font-size: 48px;
+    transition: all 0.2s;
+    scroll-snap-align: start;
+}
+
+.card figure {
+    margin: 0px;
+    border-radius: 8px;
+    cursor: move;
+    cursor: grab;
+}
+
+
+.card figure:active {
+    cursor: grabbing;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 6px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #FF9950;
+    border-radius: 5px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #FF9950;
+} 

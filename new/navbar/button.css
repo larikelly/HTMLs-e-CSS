@@ -1,0 +1,26 @@
+.user-button {
+    background-color: transparent; 
+    color: #5E5E5E; 
+    border: 1px solid #5E5E5E; 
+    padding: 10px 60px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.user-icon {
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0; 
+}
+
+.user-button:hover {
+    background-color: #2D8D94;
+}
+
+.user-name {
+    text-align: center;
+    flex-grow: 1; /* Ocupa todo o espaço disponível */
+}
