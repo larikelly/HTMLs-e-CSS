@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Quadrados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3> ESTRATIFICAÇÃO</h3>
+    <div class="container">
+        <div class="quadrado" id="quadrado1">
+            <p class="nome" onclick="mostrarInfo('info1')">Nome 1</p>
+        </div>
+
+        <div class="quadrado" id="quadrado2">
+            <p class="nome" onclick="mostrarInfo('info2')">Nome 2</p>
+        </div>
+    </div>
+
+    <div class="info-container">
+        <div class="quadrado-info" id="info1">
+            <p>Informações sobre Nome 1</p>
+        </div>
+        <div class="quadrado-info" id="info2">
+            <p>Informações sobre Nome 2</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

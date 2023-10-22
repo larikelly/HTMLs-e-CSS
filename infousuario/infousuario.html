@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <main>
+    <header>
+        <h4>Já possui conta? <a href="#">Acessar agora</a></h4>
+        <br>
+    </header>        
+        <h2>Dados Pessoais</h2>
+        <div>
+            <section>       
+                <form>
+                    <div class="input-group">
+                        <div class="input nome">
+                            <label for="nomeCompleto">Nome Completo:*</label>
+                            <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+                        </div>
+                        <div class="input dataNascimento">
+                            <label for="dataNascimento">Data de Nascimento:</label>
+                            <input type="date" id="dataNascimento" name="dataNascimento">
+                        </div>
+                    </div>
+                        <div class="input cpf">
+                            <label for="cpf">CPF:*</label>
+                            <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="999.999.999-99" required>
+                        </div>
+                     <br>
+                        
+                        <div class="input-group">
+    <div class="input seu-perfil">
+        <label for="seuPerfil">Seu Perfil:</label>
+        <div class="estpro">
+        <div class="radio-group">
+            <label class="radio-label">
+                <input type="radio" id="estudante" name="seuPerfil" value="estudante" required>
+                Estudante
+            </label>
+            <label class="radio-label">
+                <input type="radio" id="profissional" name="seuPerfil" value="profissional" required>
+                Profissional
+            </label>
+        </div>
+    </div>
+    </div>
+    <div class="input crm">
+        <label for="crm">CRM:</label>
+        <input type="text" id="crm" name="crm">
+    </div>
+    <div class="input area-atuacao">
+        <label for="areaAtuacao">Área de Atuação:</label>
+        <input type="text" id="areaAtuacao" name="areaAtuacao">
+    </div>
+</div>
+<br>
+ 
+                    <div class="cidade-estado">               
+                    <div>
+                        <label for="profissao">Selecione sua profissão:</label>
+                        <select id="profissao" name="profissao">
+                            <option value="" disabled selected hidden>Selecione</option>
+                            <option value="medico">Médico</option>
+                            <option value="enfermeiro">Enfermeiro</option>
+                            <option value="estudante">Estudante</option>
+                            <option value="psicologo">Psicólogo</option>
+                            <option value="tecnico">Técnico</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                        <div>
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" id="cidade" name="cidade">
+                        </div>
+                        <div>
+                            <label for="estado">Estado:</label>
+                            <input type="text" id="estado" name="estado">
+                        </div>
+                    </div>                   
+                    <div>
+                        <label for="unidadeAtuacao2">Unidade de Atuação:</label>
+                        <input type="text" id="unidadeAtuacao2" name="unidadeAtuacao2">
+                    </div>
+                    <br>
+                    <h1>Informações da conta</h1>
+                    <div class="input-group">
+                        <div class="input email">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input celular">
+                            <label for="celular">Celular:</label>
+                            <input type="tel" id="celular" name="celular" pattern="\d{2}\d{5}\d{4}" placeholder="(99) 99999-9999" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input senha">
+                            <label for="senha">Senha:</label>
+                            <input type="password" id="senha" name="senha" required>
+                        </div>
+                        <div class="input confirmar-senha">
+                            <label for="confirmaSenha">Confirme a Senha:</label>
+                            <input type="password" id="confirmaSenha" name="confirmaSenha" required>
+                        </div>
+                    </div>
+                    <div class="termos">
+                        <label>
+                            <input type="checkbox" id="termosDeUso" name="termosDeUso" required>
+                            Li e concordo com os <a href="#">Termos de Uso</a>
+                        </label>
+                    </div>                                                          
+                    <button type="submit">Cadastrar</button>
+                </form>                
+            </section>
+        </div>
+    </main>
+</body>
+</html>
