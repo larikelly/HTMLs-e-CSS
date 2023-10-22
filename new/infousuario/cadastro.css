@@ -1,0 +1,215 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px;
+    padding: 90px;
+    background-color: #F1FFF1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h4 {
+    color: #333;
+}
+
+h1, h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input, select {
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    height: 50px;
+    letter-spacing: .03rem;
+    background-color: transparent;
+    outline: none;
+    transition: .25s;
+    border-radius: 8px;
+    text-indent: 10px;
+    margin-top: 4px;
+}
+
+button {
+    background-color: #F1FFF1;
+    color: #3FB4BA;
+    white-space: nowrap;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    line-height: 50px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: .025em;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    min-height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px; 
+    height: 20px;
+    border: 2px solid #000; 
+    border-radius: 0; 
+}
+
+input[type="checkbox"]:checked {
+    background-color: #000; /* Muda a cor de fundo quando marcado */
+}
+input[type="radio"] {
+    -webkit-appearance: radio;
+    appearance: radio;
+    margin-right: 5px; 
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4 a {
+    color: gray;
+    text-decoration: none; 
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    flex: 1;
+    margin-right: 10px;
+}
+.label {
+    display: block;
+}
+
+.input input {
+    width: 100%;
+}
+.nome {
+    flex: 2; 
+    margin-right: 10px;
+}
+.email,
+.celular {
+    flex: 2;
+    margin-right: 10px;
+}
+
+.spacer {
+    flex: 0.2; 
+}
+
+.cidade-estado {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+.radio-group {
+    display: flex;
+  }
+  
+  .radio-label {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-label input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin: 0;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .radio-label input:checked {
+    background-color: #000;
+  }
+  
+  .radio-label input:focus {
+    outline: none;
+  }
+  
+  .estpro {
+    display: flex;
+    height: 100%;
+}
+.termos {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+    justify-content: center;
+}
+
+.termos label {
+    display: flex;
+    align-items: center;
+}
+

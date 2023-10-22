@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.quadrado-info {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.nome {
+    margin: 0;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
