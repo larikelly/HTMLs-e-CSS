@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1FFF1;
+    padding: 10px;
+    border-top: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+    border-left: 1px solid #898989; 
+    border-right: 1px solid #898989;
+    padding-left: 40px; 
+    padding-right: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 0 0 auto;
+    }
+
+.small {
+    font-size: 20px; 
+}
