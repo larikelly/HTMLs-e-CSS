@@ -19,7 +19,6 @@ body {
 
 
 .form-side {
-
     display: flex;
     justify-content: center;
     align-items: start;
@@ -27,6 +26,7 @@ body {
     height: 100vh; 
     padding: 120px;
 }
+
 .welcome-message {
     max-width: 360px;
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Preenchida</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="border">
+            Meu Perfil
+    </div>
+    <div class="profile-container">
+        <div class="profile-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" fill="none">
+                <circle cx="96" cy="96" r="96" fill="#D9D9D9"/>
+                <path d="M95.9992 91.3703C99.2767 91.3703 102.481 90.3624 105.206 88.4741C107.931 86.5857 110.055 83.9018 111.309 80.7616C112.563 77.6214 112.892 74.166 112.252 70.8324C111.613 67.4988 110.034 64.4367 107.717 62.0333C105.399 59.6299 102.447 57.9932 99.2321 57.3301C96.0175 56.667 92.6856 57.0073 89.6575 58.308C86.6295 59.6087 84.0414 61.8114 82.2205 64.6375C80.3996 67.4636 79.4277 70.7862 79.4277 74.1851C79.4277 78.7429 81.1736 83.114 84.2814 86.3369C87.3891 89.5597 91.6041 91.3703 95.9992 91.3703Z" fill="#5E5E5E"/>
+                <path d="M120.857 134.333C121.956 134.333 123.01 133.881 123.787 133.075C124.564 132.269 125 131.177 125 130.037C125 122.061 121.945 114.411 116.506 108.772C111.068 103.132 103.691 99.963 96 99.963C88.3087 99.963 80.9325 103.132 75.4939 108.772C70.0553 114.411 67 122.061 67 130.037C67 131.177 67.4365 132.269 68.2134 133.075C68.9904 133.881 70.0441 134.333 71.1429 134.333H120.857Z" fill="#5E5E5E"/>
+            </svg>
+        </div>
+        <button class="edit-button">Edição
+            <div class="button-icon"></div>
+        </button>
+    </div>
+    
+    <form>
+        <div class="form-container">
+            <div class="form-section">
+            <div>
+                <label for="nomeCompleto"></label>
+                <input type="text" id="nomeCompleto" name="nomeCompleto" required value="Nome Completo">
+            </div>
+            <div>
+                <label for="dataNascimento"></label>
+                <input type="date" id="dataNascimento" name="dataNascimento" value="Data de Nascimento">
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" value="E-mail">
+            </div>
+            <div>
+                <label for="celular"></label>
+                <input type="tel" id="celular" name="celular" pattern="\d{2}\d{5}\d{4}" placeholder="(99) 99999-9999" value="Celular">
+            </div>
+        <div>
+            <label for="cpf"></label>
+            <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="999.999.999-99" required value="CPF">
+        </div>
+        <div>
+            <label for="cidade"></label>
+            <input type="text" id="cidade" name="cidade" value="Cidade">
+        </div>
+    </div>
+        <div class="form-section">
+        <div>
+            <label for="estado"></label>
+            <input type="text" id="estado" name="estado" value="Estado">
+        </div>
+        <div>
+            <label for="unidadeAtuacao2"></label>
+            <input type="text" id="unidadeAtuacao2" name="unidadeAtuacao2" value="Unidade de Atuação">
+        </div>
+        <div>
+            <label for="areaAtuacao"></label>
+            <input type="text" id="areaAtuacao" name="areaAtuacao" value="Area de Atuação">
+        </div>
+            <div>
+                <label for="crm"></label>
+                <input type="text" id="crm" name="crm" value="CRM">
+            </div>        
+            <div>
+                <label for="profissao"></label>
+                <input id="profissao" name="profissao" value="Selecione">
+            </div>
+            </div>   
+        </div>                
+    </form>                
+</body>
+</html>
+
