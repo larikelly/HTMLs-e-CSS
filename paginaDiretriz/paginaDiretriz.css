@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: start;
     height: 100vh; 
-    padding: 0px;
+    padding: 100px;
 }
 .title-and-search {
     display: flex;
@@ -110,4 +110,8 @@ h3 {
     content: '\f067'; /* Código Unicode para o ícone de "+" */
     font-family: 'Font Awesome Free 5.15.3';
     font-weight: 900;
+}
+.butaosugestao{
+    position: absolute;
+    right: 20;
 }
