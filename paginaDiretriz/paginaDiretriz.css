@@ -95,9 +95,9 @@ h3 {
 }
 
 .suggest-button {
-    margin-right: 10px; /* Adiciona um espaço entre o botão e o texto */
+    margin-right: 10px; 
     padding: 10px 20px;
-    background-color: transparent; /* Cor do botão de sugestão */
+    background-color: transparent; 
     border: none;
     cursor: pointer;
 }
@@ -107,7 +107,7 @@ h3 {
 }
 
 .suggest-button i:before {
-    content: '\f067'; /* Código Unicode para o ícone de "+" */
+    content: '\f067'; 
     font-family: 'Font Awesome Free 5.15.3';
     font-weight: 900;
 }
