@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Poppins, sans-serif;
+  border: 1px solid #000;
+}
+
+a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
+
+button {
+  border: 0;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+.logo img {
+    max-height: 50px; 
+  }
+
+.navbar {
+  height: 90px;
+  background-color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu-links {
+  display: flex;
+  gap: 24px;
+  border-right: 1px solid white;
+  padding-inline: 24px;
+}
+
+.menu-links a {
+  font-weight: 500;
+  color: black;
+  padding: 8px 16px;
+}
+
+.menu-links a:hover {
+  color: #F1FFF1;
+}
+
+.menu-btn {
+  font-size: 32px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+.user-button {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.login-button {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 48px;
+    border: 1px solid var(--Cinza-400, #5E5E5E);
+    padding: 5px 18px; 
+    width: 200px; 
+}
+.login-icon {
+    background-color: #ccc;
+    border-radius: 50%; 
+    padding: 5px; 
+    display: inline-block; 
+    margin-right: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-icon svg {
+    fill: white; 
+}
+
+.login-button svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  
+.logout-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+.logout-button {
+    background-color: #ccc;
+    border: none;
+    border-radius: 50%;
+    padding: 9px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 53rem) {
+  .menu {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
