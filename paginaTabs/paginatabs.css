@@ -101,16 +101,3 @@ header {
     color: white;
     background-color: var(--gray-dark);
 }
-
-
-.tabs a svg {
-    stroke: var(--gray-mid);
-}
-
-.tabs .active svg {
-    stroke: var(--white);
-}
-
-.tabs a:hover svg {
-    stroke: var(--white);
-}
