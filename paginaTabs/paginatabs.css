@@ -1,0 +1,114 @@
+
+        .box-tab {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .tabs {
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px; /* Adicionando margem à direita */
+        }
+
+        .tab {
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .panels {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel {
+            display: none;
+        }
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        input[type="radio"]:checked + .panels > .panel {
+            display: block;
+        }
+.box-tab{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .tab{
+  
+      cursor: pointer;
+      padding: 10px 25px;
+      margin: 0px -1px;
+      background: #28ccd0;
+      color: #fff;
+      border-radius: 3px 3px 0px 0px;
+      display: inline-block;
+  
+  }
+  
+  .tabs { 
+  
+      width: 100%;
+      float: left; 
+  
+  } 
+  
+  .panels{
+  
+    background:#fffffff6;
+    min-height:260px;
+    width:100%;
+    border-radius:3px;
+    overflow:hidden;
+    padding:20px;  
+  
+  }
+  
+  .panel{
+  
+    display:none;
+    animation: fadein .8s;
+  
+  }
+  
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  
+  .tab-title{
+  
+    width:100%;  
+    float:left;
+    margin-bottom:10px;
+    font-size:1.5em;
+    font-weight:bold
+  
+  }
+  
+  .radio{
+    display:none;
+  }
+  
+  #um:checked ~ .panels #tab-um,
+  #dois:checked ~ .panels #tab-dois,
+  #tres:checked ~ .panels #tab-tres{
+    display:block
+  }
+  #um:checked ~ .tabs #one-tab,
+  #dois:checked ~ .tabs #two-tab,
+  #tres:checked ~ .tabs #three-tab{
+    background:#fffffff6;
+    color:#000;
+    border-top: 3px solid #28ccd0;
+  }
