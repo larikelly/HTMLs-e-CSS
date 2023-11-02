@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color: #fff;
+    font-family: Poppins;
+}
+
+.box {
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    width: 80%; 
+    max-width: 1000px;
+    padding: 120px;
+}
+
+.box h1 {
+    text-align: left; 
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.64px;
+    padding-left: 10px;
+}
+.retangulo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    flex: 1;
+    text-align: center;
+}
+
+.retangulo-cinza {
+    position: absolute;
+    right: 0;
+    width: 727px;
+    height: 56px; 
+    background: var(--Cinza-200, #D9D9D9); 
+    border-radius: 16px 0px 0px 16px;
+    align-items: center; 
+    justify-content: center;
+    margin-right: 0;
+    right: -260px;
+}
+.botao-verde {
+    cursor: pointer; 
+    margin-left: 30px;
+}
+
+
+.input label {
+    display: block;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.input input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    background: #D9D9D9;
+}
+.input textarea {
+    width: calc(100% - 20px);
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: none;
+    padding: 30px;
+    margin-bottom: 10px;
+    background: #E7EDE7;
+}
+
+.input textarea:focus {
+    outline: none;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #E7EDE7;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #D9D9D9;
+    border-radius: 16px;
+}
+  
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.inputdiretriz,
+.inputDescricao,
+.inputLink {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.buttons button {
+    width: 152px;
+    height: 48px; 
+    flex-shrink: 0; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 48px;
+    cursor: pointer;
+    margin: 0 30px;
+    background-color: transparent;
+    border: 1px solid #5E5E5E;
+    color: #000;
+    font-family: Poppins;
+}
+    
+.button:hover {
+    background-color: #D9D9D9;
+    color: #fff; 
+}
+
+.button:active {
+    background-color: #898989;
+    color: #fff;
+}
+
+#descricaoDiretriz {
+    text-align: justify;
+}

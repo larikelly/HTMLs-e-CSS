@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    
 }
 
 * {
@@ -23,17 +24,22 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .title-diretriz h3 {
     font-size: 24px;
-    font-weight: bold; 
+    font-weight: 700;
 }
+
 .background {
     background-color: #D9D9D9;
     padding: 12px; 
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    right: -100px;
+    width:500px;
+    position: absolute;
+    top: 0;
+    border-radius: 16px 0px 0px 16px;
 }
 #divBusca{
     background-color:#F6F6F6;
@@ -44,7 +50,6 @@ body {
     align-items: center;
     padding-left: 0;
 }
-  
   #txtBusca{
     float:left;
     background-color:#F6F6F6;
@@ -65,7 +70,7 @@ body {
 }
 
 .diretriz-box {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: justify;
 }
@@ -79,9 +84,9 @@ body {
     font-size: 16px;
     line-height: 1.2;
 }
-.butaosugestao {
+.botaosugestao {
     display: flex;
-    align-items: center;
+    align-items: right;
 }
 
 .suggest-button img {
@@ -111,7 +116,7 @@ h3 {
     font-family: 'Font Awesome Free 5.15.3';
     font-weight: 900;
 }
-.butaosugestao{
+.botaosugestao{
     position: absolute;
     right: 20;
 }
