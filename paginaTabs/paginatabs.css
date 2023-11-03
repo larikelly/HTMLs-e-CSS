@@ -15,10 +15,11 @@ body {
 .all-coisas{
 padding: 80px;
 }
+
 .tabs-container {
 	padding: 16px;
-  width: 1024px;
-  height: 600px;
+  width: 1324px;
+  height: 700px;
   display: flex;
 	margin: 30px;
 	border-radius: 16px;
@@ -51,7 +52,7 @@ padding: 80px;
 }
 
 .tabs {
-    width: 150px;
+    width: 180px;
     height: 140px;
     position: relative;
     display: flex;
@@ -71,8 +72,8 @@ padding: 80px;
     padding: 12px;
     align-items: center;
     gap: 8px;
-    width: 96px;
-    height: 108px;
+    width: 110px;
+    height: 130px;
     flex-direction: column;
     justify-content: center;
     background-color: #D9D9D9;
@@ -87,7 +88,7 @@ padding: 80px;
 }
 
 p {
-    width: 800px;
+    width: 1000px;
     height: 50px;
     display: flex;
     background-color: #D9D9D9; 
@@ -134,6 +135,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: right;
+    position: fixed; 
+  
+    bottom: 0; 
+    right: 0; 
+    margin: 10px; 
   }
   
   .pagination-info {
